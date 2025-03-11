@@ -1,2 +1,2 @@
 # physics
-physis is F word
+physis is gooooood
