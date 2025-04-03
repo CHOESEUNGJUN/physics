@@ -7,7 +7,7 @@ int main() {
     double angle_degree, x, y, r, theta_radian;
 
     // (각도)
-    printf("각도를 입력하세요 (degree): ");
+    printf("각도: ");
     scanf_s("%lf", &angle_degree);
 
     // 각도 ==> 라디안
@@ -20,7 +20,7 @@ int main() {
     printf("tan(%f): %f\n", angle_radian, tan(angle_radian));
 
     // 직교좌표
-    printf("x와 y 좌표를 입력하세요 (공백으로 구분): ");
+    printf("x와 y 좌표: ");
     scanf_s("%lf %lf", &x, &y);
 
     // 직교 좌표 -> 극좌표
@@ -29,7 +29,7 @@ int main() {
     printf("극좌표: r = %f, theta = %f\n", r, theta_radian);
 
     // 극좌표 변환용 반지름
-    printf("극좌표 변환을 위한 반지름을 입력하세요: ");
+    printf("극좌표 변환 반지름: ");
     scanf_s("%lf", &r);
 
     // 극좌표 -> 직교 좌표 
